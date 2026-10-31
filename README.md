@@ -64,7 +64,7 @@ In strict compliance with transparency standards, only confirmed contact informa
 | Item | Status in Portfolio | Target Destination / Action Required |
 | :--- | :--- | :--- |
 | **Email** | `mailto:nsrashmi2005@gmail.com` | Verified & Active |
-| **GitHub Profile** | `https://github.com/nsrashmi2005` | Verified & Active |
+| **GitHub Profile** | `https://github.com/Rashmi-debug43` | Verified & Active |
 | **LinkedIn Profile** | `https://www.linkedin.com/in/rashmi-n-s` | Configuration placeholder — Update with direct personal LinkedIn vanity slug if different |
 | **CoreStack Explorer Repo** | *"Repository link to be added"* | Pending public team repo release link |
 | **AI Welfare Companion Repo** | *"Repository link to be added"* | Pending public repository link |
@@ -141,15 +141,15 @@ npx serve .
    git add .
    git commit -m "feat: initial commit of The Curious Mind developer portfolio"
    git branch -M main
-   git remote add origin https://github.com/<username>/<repo-name>.git
+   git remote add origin https://github.com/Rashmi-debug43/rashmi-portfolio.git
    git push -u origin main
    ```
 2. Navigate to your repository on GitHub:
    - Go to **Settings** > **Pages**.
    - Under **Source**, choose `Deploy from a branch`.
-   - Select branch `main` and folder `/ (root)` (or `/docs`).
+   - Select branch `main` and folder `/ (root)`.
    - Click **Save**.
-3. Your portfolio will be live at `https://<username>.github.io/<repo-name>/`.
+3. Your portfolio will be live at `https://rashmi-debug43.github.io/rashmi-portfolio/`.
 
 ### Deploying to Vercel or Netlify
 - **Vercel**: Import the GitHub repository; Vercel automatically detects static HTML/CSS/JS and deploys with a global edge CDN.
