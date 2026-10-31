@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" fill="none">
+  <defs>
+    <linearGradient id="core-bg" x1="0" y1="0" x2="600" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0E1838" />
+      <stop offset="50%" stop-color="#111528" />
+      <stop offset="100%" stop-color="#080B16" />
+    </linearGradient>
+    <radialGradient id="core-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B7CFF" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#65CFFF" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#080B16" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="gold-winner" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE072" />
+      <stop offset="100%" stop-color="#FFB300" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="340" fill="url(#core-bg)" />
+  <rect width="600" height="340" fill="url(#core-glow)" />
+
+  <!-- Constellation Graph Network (Open Source Universe) -->
+  <!-- Interconnecting Edges -->
+  <g stroke="rgba(180, 190, 255, 0.22)" stroke-width="1.2">
+    <line x1="120" y1="170" x2="220" y2="110" />
+    <line x1="220" y1="110" x2="300" y2="165" />
+    <line x1="220" y1="110" x2="310" y2="85" />
+    <line x1="310" y1="85" x2="410" y2="115" />
+    <line x1="300" y1="165" x2="410" y2="115" />
+    <line x1="410" y1="115" x2="500" y2="180" />
+    <line x1="300" y1="165" x2="360" y2="240" />
+    <line x1="300" y1="165" x2="220" y2="235" />
+    <line x1="220" y1="235" x2="120" y2="170" />
+    <line x1="360" y1="240" x2="480" y2="230" />
+    <line x1="500" y1="180" x2="480" y2="230" />
+  </g>
+
+  <!-- Orbital Range Bands -->
+  <ellipse cx="300" cy="165" rx="180" ry="90" stroke="rgba(101, 207, 255, 0.25)" stroke-width="1.2" stroke-dasharray="4 4" transform="rotate(-10 300 165)" />
+  <ellipse cx="300" cy="165" rx="230" ry="110" stroke="rgba(139, 124, 255, 0.15)" stroke-width="1" />
+
+  <!-- Nodes (Projects / Regional Repos) -->
+  <g>
+    <!-- Central Hub -->
+    <circle cx="300" cy="165" r="22" fill="#151D34" stroke="#8B7CFF" stroke-width="2.5" />
+    <circle cx="300" cy="165" r="7" fill="#65CFFF" />
+    <text x="300" y="200" text-anchor="middle" fill="#F3F5FF" font-family="system-ui, sans-serif" font-size="11" font-weight="700">CORE-STACK</text>
+
+    <!-- Node 1: North Region -->
+    <circle cx="310" cy="85" r="14" fill="#101629" stroke="#65CFFF" stroke-width="1.5" />
+    <circle cx="310" cy="85" r="4" fill="#65CFFF" />
+
+    <!-- Node 2: West Explorer -->
+    <circle cx="220" cy="110" r="16" fill="#101629" stroke="#8B7CFF" stroke-width="1.5" />
+    <circle cx="220" cy="110" r="5" fill="#8B7CFF" />
+
+    <!-- Node 3: East Regional -->
+    <circle cx="410" cy="115" r="18" fill="#101629" stroke="#8B7CFF" stroke-width="1.5" />
+    <circle cx="410" cy="115" r="5" fill="#8B7CFF" />
+
+    <!-- Node 4: Multilingual Engine -->
+    <circle cx="120" cy="170" r="12" fill="#101629" stroke="rgba(180, 190, 255, 0.6)" stroke-width="1.2" />
+    <circle cx="120" cy="170" r="3" fill="#F3F5FF" />
+    <text x="120" y="196" text-anchor="middle" fill="#A6AEC7" font-family="monospace" font-size="9">TAMIL / HINDI</text>
+
+    <!-- Node 5: Comparison Matrix -->
+    <circle cx="500" cy="180" r="13" fill="#101629" stroke="#65CFFF" stroke-width="1.2" />
+    <circle cx="500" cy="180" r="4" fill="#65CFFF" />
+    <text x="500" y="206" text-anchor="middle" fill="#A6AEC7" font-family="monospace" font-size="9">REGIONAL METRICS</text>
+
+    <!-- Node 6: Community Resiliency -->
+    <circle cx="220" cy="235" r="11" fill="#101629" stroke="#8B7CFF" stroke-width="1.2" />
+    <circle cx="360" cy="240" r="11" fill="#101629" stroke="#65CFFF" stroke-width="1.2" />
+  </g>
+
+  <!-- Regional Comparison Bar Chart Overlay -->
+  <g transform="translate(230, 265)">
+    <rect width="140" height="42" rx="6" fill="#101629" stroke="rgba(180, 190, 255, 0.25)" stroke-width="1" />
+    <rect x="15" y="24" width="22" height="12" fill="#8B7CFF" rx="2" />
+    <rect x="45" y="16" width="22" height="20" fill="#65CFFF" rx="2" />
+    <rect x="75" y="10" width="22" height="26" fill="#8B7CFF" rx="2" />
+    <rect x="105" y="8" width="22" height="28" fill="#FFE072" rx="2" />
+    <text x="70" y="4" text-anchor="middle" fill="#A6AEC7" font-family="monospace" font-size="8.5">REGIONAL EXPLORATION</text>
+  </g>
+
+  <!-- Award Badge (Top Right) -->
+  <g transform="translate(385, 20)">
+    <rect width="195" height="30" rx="15" fill="rgba(255, 224, 114, 0.12)" stroke="url(#gold-winner)" stroke-width="1.2" />
+    <polygon points="405,35 407,40 412,41 408,44 409,49 405,46 401,49 402,44 398,41 403,40" fill="url(#gold-winner)" />
+    <text x="420" y="39" fill="#FFE072" font-family="monospace" font-size="9.5" font-weight="700" letter-spacing="1">FOSS HACK 2026 WINNER</text>
+  </g>
+
+  <!-- Category Tag (Top Left) -->
+  <rect x="25" y="25" width="165" height="24" rx="4" fill="rgba(139, 124, 255, 0.12)" stroke="rgba(139, 124, 255, 0.3)" stroke-width="1" />
+  <text x="35" y="41" fill="#8B7CFF" font-family="monospace" font-size="9.5" letter-spacing="1">LANDSCAPE EXPLORER</text>
+</svg>

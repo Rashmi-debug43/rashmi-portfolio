@@ -1,0 +1,18 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / dependencies
+node_modules/
+dist/
+.cache/
+
+# Local duplicate workspace folder
+rashmi-portfolio/

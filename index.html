@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Rashmi N S — The Curious Mind | Full-Stack Developer &amp; AI Explorer</title>
+  
+  <meta name="description" content="Personal portfolio of Rashmi N S, a final-year Information Technology student at St. Joseph's Institute of Technology and FOSS Hack 2026 Global Winner, exploring full-stack engineering, applied AI, and meaningful software.">
+  <meta name="author" content="Rashmi N S">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#080B16">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rashmi N S — The Curious Mind">
+  <meta property="og:description" content="Some questions become code. Some ideas become impact. Portfolio of Rashmi N S, aspiring software developer &amp; FOSS Hack 2026 Global Winner.">
+  <meta property="og:image" content="assets/icons/favicon.svg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rashmi N S — The Curious Mind">
+  <meta name="twitter:description" content="Some questions become code. Some ideas become impact. Portfolio of Rashmi N S, aspiring software developer.">
+  <meta name="twitter:image" content="assets/icons/favicon.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/icons/favicon.svg">
+
+  <!-- Google Fonts: Display & Body Typefaces -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rashmi N S",
+    "jobTitle": "Aspiring Software Developer & Final-Year IT Student",
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "St. Joseph's Institute of Technology"
+    },
+    "award": "Global Winner — FOSS Hack 2026 (Team Brainiacs)",
+    "knowsAbout": [
+      "Full-stack Software Development",
+      "Artificial Intelligence",
+      "Next.js",
+      "React",
+      "Python",
+      "Django",
+      "Java",
+      "REST APIs"
+    ],
+    "description": "Final-year Information Technology student exploring the space where software, artificial intelligence, and human problems meet."
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Accessible Skip to Content Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ========================================================================
+       SECTION 1: NAVIGATION
+       ======================================================================== -->
+  <header class="site-header" role="banner">
+    <div class="container nav-container">
+      
+      <!-- Brand Monogram & Identity -->
+      <a href="#hero" class="site-brand" aria-label="Rashmi N S Portfolio Homepage">
+        <span class="brand-name">RASHMI N S</span>
+        <span class="brand-tag">THE CURIOUS MIND</span>
+      </a>
+
+      <!-- Primary Navigation Links -->
+      <nav id="site-navigation" class="site-nav" aria-label="Primary Navigation">
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#achievement" class="nav-link">Achievement</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Navigation Actions (Theme Toggle & Mobile Trigger) -->
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle between dark and light theme" title="Toggle theme">
+          <!-- Sun Icon (for Dark Mode -> Switch to Light) -->
+          <svg class="theme-icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon Icon (for Light Mode -> Switch to Dark) -->
+          <svg class="theme-icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-nav-toggle" class="mobile-nav-toggle" aria-controls="nav-menu" aria-expanded="false" aria-label="Open navigation menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       MAIN PAGE CONTENT
+       ======================================================================== -->
+  <main id="main-content">
+
+    <!-- ======================================================================
+         SECTION 2: HERO
+         ====================================================================== -->
+    <section id="hero" class="hero-section" aria-labelledby="hero-title">
+      <!-- Ambient Radial Backlight -->
+      <div class="hero-radial-glow" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        
+        <!-- Left Hero Content -->
+        <div class="hero-content reveal-item">
+          <!-- Professional Identifier Pill -->
+          <div class="hero-pill-badge">
+            <span class="status-dot-pulse" aria-hidden="true"></span>
+            <span class="hero-pill-text">FINAL-YEAR IT STUDENT · ASPIRING SOFTWARE DEVELOPER</span>
+          </div>
+
+          <!-- Introductory Small Label -->
+          <span class="hero-intro-label">THE CURIOUS BUILDER · RASHMI N S</span>
+
+          <!-- Main Headline -->
+          <h1 id="hero-title" class="hero-headline">
+            Some questions become code.<br>
+            <span class="gradient-text">Some ideas become impact.</span>
+          </h1>
+
+          <!-- Supporting Paragraph -->
+          <p class="hero-paragraph">
+            I'm Rashmi, an Information Technology student exploring the space where software, artificial intelligence, and human problems meet. I like asking what could work better—and building to find out.
+          </p>
+
+          <!-- Primary & Secondary Calls to Action -->
+          <div class="hero-cta-group">
+            <a href="#about" class="btn-primary">
+              <span>Explore My World</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#projects" class="btn-secondary">
+              <span>Discover My Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Compact Context Metadata -->
+          <div class="hero-meta-badges">
+            <div class="hero-meta-item">
+              <span>INSTITUTION:</span> <strong>St. Joseph's Institute of Technology</strong>
+            </div>
+            <div class="hero-meta-item">
+              <span>RECOGNITION:</span> <strong>FOSS Hack 2026 Winner</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual: Celestial Constellation Artwork -->
+        <div class="hero-visual-card reveal-item" aria-hidden="true">
+          <svg class="hero-orbit-svg" viewBox="0 0 460 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="hero-grad-primary" x1="0" y1="0" x2="460" y2="460" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#8B7CFF" />
+                <stop offset="50%" stop-color="#65CFFF" />
+                <stop offset="100%" stop-color="#8B7CFF" />
+              </linearGradient>
+              <radialGradient id="hero-core-glow" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#65CFFF" stop-opacity="0.9" />
+                <stop offset="35%" stop-color="#8B7CFF" stop-opacity="0.45" />
+                <stop offset="100%" stop-color="#080B16" stop-opacity="0" />
+              </radialGradient>
+            </defs>
+
+            <!-- Celestial Aura -->
+            <circle cx="230" cy="230" r="170" fill="url(#hero-core-glow)" />
+
+            <!-- Orbital Rings -->
+            <circle cx="230" cy="230" r="200" stroke="rgba(180, 190, 255, 0.12)" stroke-width="1.2" stroke-dasharray="5 7" />
+            <circle cx="230" cy="230" r="150" stroke="rgba(139, 124, 255, 0.25)" stroke-width="1.5" />
+            <circle cx="230" cy="230" r="95" stroke="rgba(101, 207, 255, 0.35)" stroke-width="1.2" stroke-dasharray="3 4" />
+
+            <!-- Elliptical Trajectories -->
+            <ellipse cx="230" cy="230" rx="190" ry="80" stroke="url(#hero-grad-primary)" stroke-width="1.5" transform="rotate(-35 230 230)" opacity="0.65" stroke-dasharray="8 5" />
+            <ellipse cx="230" cy="230" rx="190" ry="80" stroke="url(#hero-grad-primary)" stroke-width="1.5" transform="rotate(35 230 230)" opacity="0.65" stroke-dasharray="8 5" />
+
+            <!-- Interconnecting Constellation Edges -->
+            <line x1="120" y1="160" x2="230" y2="230" stroke="rgba(139, 124, 255, 0.45)" stroke-width="1.5" />
+            <line x1="230" y1="230" x2="340" y2="150" stroke="rgba(101, 207, 255, 0.45)" stroke-width="1.5" />
+            <line x1="230" y1="230" x2="280" y2="340" stroke="rgba(243, 245, 255, 0.35)" stroke-width="1.5" />
+            <line x1="120" y1="160" x2="160" y2="310" stroke="rgba(180, 190, 255, 0.25)" stroke-width="1" />
+            <line x1="160" y1="310" x2="280" y2="340" stroke="rgba(180, 190, 255, 0.25)" stroke-width="1" />
+            <line x1="340" y1="150" x2="370" y2="270" stroke="rgba(180, 190, 255, 0.25)" stroke-width="1" />
+
+            <!-- Central Core Node ("The Mind") -->
+            <circle cx="230" cy="230" r="16" fill="#151D34" stroke="url(#hero-grad-primary)" stroke-width="2.5" />
+            <circle cx="230" cy="230" r="6" fill="#65CFFF" />
+
+            <!-- Surrounding Constellation Nodes -->
+            <!-- Question Node -->
+            <circle cx="120" cy="160" r="9" fill="#101629" stroke="#8B7CFF" stroke-width="2" />
+            <circle cx="120" cy="160" r="3" fill="#8B7CFF" />
+            <text x="120" y="140" text-anchor="middle" fill="#8B7CFF" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" letter-spacing="1">QUESTION</text>
+
+            <!-- Code Node -->
+            <circle cx="340" cy="150" r="9" fill="#101629" stroke="#65CFFF" stroke-width="2" />
+            <circle cx="340" cy="150" r="3" fill="#65CFFF" />
+            <text x="340" y="130" text-anchor="middle" fill="#65CFFF" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" letter-spacing="1">CODE</text>
+
+            <!-- Impact Node -->
+            <circle cx="280" cy="340" r="9" fill="#101629" stroke="#F3F5FF" stroke-width="2" />
+            <circle cx="280" cy="340" r="3" fill="#F3F5FF" />
+            <text x="280" y="365" text-anchor="middle" fill="#F3F5FF" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" letter-spacing="1">IMPACT</text>
+
+            <!-- Secondary Star Points -->
+            <circle cx="160" cy="310" r="5" fill="#8B7CFF" opacity="0.8" />
+            <circle cx="370" cy="270" r="5" fill="#65CFFF" opacity="0.8" />
+            <circle cx="230" cy="70" r="4" fill="#F3F5FF" opacity="0.7" />
+            <circle cx="60" cy="250" r="3" fill="#8B7CFF" opacity="0.6" />
+            <circle cx="400" cy="200" r="3" fill="#65CFFF" opacity="0.6" />
+          </svg>
+        </div>
+
+      </div>
+
+      <!-- Restrained Scroll Indicator -->
+      <div class="hero-scroll-indicator" aria-hidden="true">
+        <span>Scroll to explore</span>
+        <div class="scroll-track">
+          <div class="scroll-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 3: ABOUT ME ("Behind the Questions")
+         ====================================================================== -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container">
+        
+        <span class="section-label">01 / Behind the Questions</span>
+        <h2 id="about-title" class="section-title">A Perspective Rooted in Inquiry</h2>
+        <p class="section-intro">
+          Understanding problems deeply before writing a single line of code.
+        </p>
+
+        <div class="about-grid">
+          
+          <!-- Left Column: Editorial Narrative -->
+          <div class="about-prose reveal-item">
+            <p>
+              I'm <strong>Rashmi N S</strong>, a final-year Information Technology student at <strong>St. Joseph's Institute of Technology, Chennai</strong>.
+            </p>
+            <p>
+              My curiosity lives at the intersection of software development and artificial intelligence. I enjoy exploring how systems work, how ideas become applications, and how technology can make complicated experiences simpler for people.
+            </p>
+            <p>
+              Through projects spanning welfare accessibility, healthcare workflows, and open-source exploration, I'm learning to approach development as more than writing code: it's a process of understanding problems, making thoughtful decisions, and improving through experimentation.
+            </p>
+            <p>
+              I'm still discovering what I can build. That's precisely what makes the journey exciting.
+            </p>
+
+            <!-- Central Guiding Idea Card -->
+            <div class="about-quote-card">
+              <blockquote class="quote-text">
+                "A mind that questions. A developer who builds. An imagination that looks beyond what already exists."
+              </blockquote>
+              <div class="quote-author">Guiding Creative Philosophy</div>
+            </div>
+          </div>
+
+          <!-- Right Column: Profile Summary Panel -->
+          <div class="profile-summary-wrapper reveal-item">
+            <aside class="profile-summary-card" aria-label="Developer Profile Summary">
+              
+              <div class="profile-card-header">
+                <div class="profile-avatar-symbol" aria-hidden="true">R</div>
+                <div>
+                  <h3 class="profile-identity-title">Rashmi N S</h3>
+                  <div class="profile-identity-sub">Aspiring Software Developer</div>
+                </div>
+              </div>
+
+              <div class="profile-data-list">
+                <div class="profile-data-row">
+                  <span class="data-row-label">Education</span>
+                  <span class="data-row-value">B.Tech Information Technology (Final Year)</span>
+                </div>
+
+                <div class="profile-data-row">
+                  <span class="data-row-label">Institution</span>
+                  <span class="data-row-value">St. Joseph's Institute of Technology</span>
+                </div>
+
+                <div class="profile-data-row">
+                  <span class="data-row-label">Location</span>
+                  <span class="data-row-value">Chennai, Tamil Nadu, India</span>
+                </div>
+
+                <div class="profile-data-row">
+                  <span class="data-row-label">Interests</span>
+                  <span class="data-row-value">Full-stack development, AI, and software engineering</span>
+                </div>
+
+                <div class="profile-data-row">
+                  <span class="data-row-label">Current Focus</span>
+                  <span class="data-row-value">Learning, building, and improving</span>
+                </div>
+              </div>
+
+            </aside>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 4: SKILLS ("The Tools Behind the Ideas")
+         ====================================================================== -->
+    <section id="skills" class="section" aria-labelledby="skills-title">
+      <div class="container">
+        
+        <span class="section-label">02 / Technical Foundation</span>
+        <h2 id="skills-title" class="section-title">The Tools Behind the Ideas</h2>
+        <p class="section-intro">
+          Core technologies used to translate architectural concepts into reliable, responsive digital solutions.
+        </p>
+
+        <div class="skills-layout">
+          
+          <!-- Category 1: Frontend -->
+          <div class="skill-category-card reveal-item">
+            <div class="category-header">
+              <div class="category-icon-disc" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <h3 class="category-title">Frontend</h3>
+            </div>
+
+            <div class="skills-grid" role="list">
+              <div class="skill-badge-item" role="listitem" tabindex="0">
+                <div class="skill-icon-wrapper" aria-hidden="true">
+                  <img src="assets/icons/html5.svg" alt="" width="22" height="22">
+                </div>
+                <span class="skill-name">HTML5</span>
+              </div>
+
+              <div class="skill-badge-item" role="listitem" tabindex="0">
+                <div class="skill-icon-wrapper" aria-hidden="true">
+                  <img src="assets/icons/css3.svg" alt="" width="22" height="22">
+                </div>
+                <span class="skill-name">CSS3</span>
+              </div>
+
+              <div class="skill-badge-item" role="listitem" tabindex="0">
+                <div class="skill-icon-wrapper" aria-hidden="true">
+                  <img src="assets/icons/javascript.svg" alt="" width="22" height="22">
+                </div>
+                <span class="skill-name">JavaScript</span>
+              </div>
+
+              <div class="skill-badge-item" role="listitem" tabindex="0">
+                <div class="skill-icon-wrapper" aria-hidden="true">
+                  <img src="assets/icons/react.svg" alt="" width="22" height="22">
+                </div>
+                <span class="skill-name">React</span>
+              </div>
+
+              <div class="skill-badge-item" role="listitem" tabindex="0">
+                <div class="skill-icon-wrapper" aria-hidden="true">
+                  <img src="assets/icons/nextjs.svg" alt="" width="22" height="22">
+                </div>
+                <span class="skill-name">Next.js</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Backend -->
+          <div class="skill-category-card reveal-item">
+            <div class="category-header">
+              <div class="category-icon-disc" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+              </div>
+              <h3 class="category-title">Backend</h3>
+            </div>
+
+            <div class="skills-grid" role="list">
+              <div class="skill-badge-item" role="listitem" tabindex="0">
+                <div class="skill-icon-wrapper" aria-hidden="true">
+                  <img src="assets/icons/python.svg" alt="" width="22" height="22">
+                </div>
+                <span class="skill-name">Python</span>
+              </div>
+
+              <div class="skill-badge-item" role="listitem" tabindex="0">
+                <div class="skill-icon-wrapper" aria-hidden="true">
+                  <img src="assets/icons/django.svg" alt="" width="22" height="22">
+                </div>
+                <span class="skill-name">Django</span>
+              </div>
+
+              <div class="skill-badge-item" role="listitem" tabindex="0">
+                <div class="skill-icon-wrapper" aria-hidden="true">
+                  <img src="assets/icons/java.svg" alt="" width="22" height="22">
+                </div>
+                <span class="skill-name">Java</span>
+              </div>
+
+              <div class="skill-badge-item" role="listitem" tabindex="0">
+                <div class="skill-icon-wrapper" aria-hidden="true">
+                  <img src="assets/icons/api.svg" alt="" width="22" height="22">
+                </div>
+                <span class="skill-name">REST APIs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Data & Tools -->
+          <div class="skill-category-card reveal-item">
+            <div class="category-header">
+              <div class="category-icon-disc" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                  <path d="M2 17l10 5 10-5"></path>
+                  <path d="M2 12l10 5 10-5"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Data &amp; Tools</h3>
+            </div>
+
+            <div class="skills-grid" role="list">
+              <div class="skill-badge-item" role="listitem" tabindex="0">
+                <div class="skill-icon-wrapper" aria-hidden="true">
+                  <img src="assets/icons/mysql.svg" alt="" width="22" height="22">
+                </div>
+                <span class="skill-name">MySQL</span>
+              </div>
+
+              <div class="skill-badge-item" role="listitem" tabindex="0">
+                <div class="skill-icon-wrapper" aria-hidden="true">
+                  <img src="assets/icons/git.svg" alt="" width="22" height="22">
+                </div>
+                <span class="skill-name">Git</span>
+              </div>
+
+              <div class="skill-badge-item" role="listitem" tabindex="0">
+                <div class="skill-icon-wrapper" aria-hidden="true">
+                  <img src="assets/icons/github.svg" alt="" width="22" height="22">
+                </div>
+                <span class="skill-name">GitHub</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 5: FEATURED PROJECTS ("Ideas That Left the Notebook")
+         ====================================================================== -->
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="container">
+        
+        <span class="section-label">03 / Selected Work</span>
+        <h2 id="projects-title" class="section-title">Ideas That Left the Notebook</h2>
+        <p class="section-intro">
+          Different problems. Different perspectives. One recurring question: how can we make this work better?
+        </p>
+
+        <!-- Interactive Category Filter Bar -->
+        <div class="projects-filter-bar" role="tablist" aria-label="Filter projects by domain">
+          <button class="filter-btn active" role="tab" aria-selected="true" data-filter="all">All Projects</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="social-ai">AI &amp; Social Tech</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="healthcare">Healthcare</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="open-source">Open Source</button>
+        </div>
+
+        <div class="projects-showcase-grid">
+          
+          <!-- PROJECT C: CoreStack Landscape Explorer (FOSS Hack 2026 Winner) -->
+          <article class="project-card featured-winner reveal-item" data-categories="open-source" aria-labelledby="project-corestack-title">
+            <div class="project-visual-pane">
+              <img src="assets/images/project-corestack.svg" alt="CoreStack Open-Source Landscape Explorer architecture visual showcasing multilingual ecosystem mapping and regional comparison nodes" width="600" height="340" loading="lazy">
+            </div>
+
+            <div class="project-detail-pane">
+              <div>
+                <div class="project-header-meta">
+                  <span class="project-badge winner-badge">GLOBAL WINNER · FOSS HACK 2026</span>
+                  <span class="data-row-label">OPEN SOURCE TOOLING</span>
+                </div>
+                <div class="project-tagline">"Making the open-source universe easier to navigate."</div>
+                <h3 id="project-corestack-title" class="project-title">CoreStack Landscape Explorer</h3>
+                <p class="project-description">
+                  A multilingual exploration tool for the open-source ecosystem, featuring regional comparisons and designed to help people explore projects across different contexts. Built collaboratively as part of Team Brainiacs for the CoRE Stack partner challenge.
+                </p>
+                <div class="project-tech-tags">
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">REST APIs</span>
+                  <span class="tech-tag">Multilingual Mapping</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <span class="project-link-placeholder" title="Repository link will be linked upon public showcase release">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
+                  Repository link to be added
+                </span>
+                <span class="project-link-placeholder">
+                  Demo preview to be added
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT A: AI Welfare Companion -->
+          <article class="project-card reveal-item" data-categories="social-ai" aria-labelledby="project-welfare-title">
+            <div class="project-visual-pane">
+              <img src="assets/images/project-welfare.svg" alt="AI Welfare Companion architectural conceptual diagram displaying multilingual query nodes and citizen welfare discovery flow" width="600" height="340" loading="lazy">
+            </div>
+
+            <div class="project-detail-pane">
+              <div>
+                <div class="project-header-meta">
+                  <span class="project-badge">CONCEPT &amp; PROTOTYPE</span>
+                  <span class="data-row-label">SOCIAL IMPACT TECH</span>
+                </div>
+                <div class="project-tagline">"Technology with a human purpose."</div>
+                <h3 id="project-welfare-title" class="project-title">AI Welfare Companion</h3>
+                <p class="project-description">
+                  An AI-powered unified welfare platform concept designed to make government schemes easier to discover and understand, with an emphasis on accessible, multilingual interaction for diverse community backgrounds.
+                </p>
+                <div class="project-tech-tags">
+                  <span class="tech-tag">Next.js</span>
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">REST APIs</span>
+                  <span class="tech-tag">Multilingual NLP</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <span class="project-link-placeholder" title="Repository link will be published upon phase completion">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
+                  Repository link to be added
+                </span>
+                <span class="project-link-placeholder">
+                  Prototype showcase to be added
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT B: TriageAI / Smart Hospital Queue -->
+          <article class="project-card reveal-item" data-categories="healthcare" aria-labelledby="project-triage-title">
+            <div class="project-visual-pane">
+              <img src="assets/images/project-triage.svg" alt="TriageAI dynamic patient triage and queue prioritization pipeline visual representation" width="600" height="340" loading="lazy">
+            </div>
+
+            <div class="project-detail-pane">
+              <div>
+                <div class="project-header-meta">
+                  <span class="project-badge">SYSTEM CONCEPT</span>
+                  <span class="data-row-label">HEALTHCARE WORKFLOW</span>
+                </div>
+                <div class="project-tagline">"When every second matters."</div>
+                <h3 id="project-triage-title" class="project-title">TriageAI / Smart Hospital Queue</h3>
+                <p class="project-description">
+                  An intelligent healthcare queue and triage project exploring how patient information and queue insights can support more informed prioritization, reducing wait-time uncertainties in critical healthcare settings.
+                </p>
+                <div class="project-tech-tags">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Java</span>
+                  <span class="tech-tag">REST APIs</span>
+                  <span class="tech-tag">Queue Optimization</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <span class="project-link-placeholder" title="Code repository will be added after evaluation phase">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
+                  Repository link to be added
+                </span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 6: ACHIEVEMENT ("A Milestone Worth Remembering")
+         ====================================================================== -->
+    <section id="achievement" class="section" aria-labelledby="achievement-title">
+      <div class="container">
+        
+        <span class="section-label">04 / Recognition</span>
+        <h2 id="achievement-title" class="section-title">A Milestone Worth Remembering</h2>
+        <p class="section-intro">
+          Rigorous collaboration and problem-solving recognized on a global stage.
+        </p>
+
+        <div class="achievement-panel reveal-item">
+          
+          <!-- Trophy / Visual Artwork -->
+          <div class="achievement-visual-wrapper">
+            <img src="assets/images/achievement-trophy.svg" alt="FOSS Hack 2026 Global Winner Trophy and celestial award insignia" class="trophy-svg-img" width="220" height="220" loading="lazy">
+          </div>
+
+          <!-- Content Details -->
+          <div class="achievement-content-wrapper">
+            <div class="award-pre-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+              <span>Hackathon Honor</span>
+            </div>
+
+            <h3 class="achievement-main-title">GLOBAL WINNER — FOSS HACK 2026</h3>
+
+            <p class="achievement-description">
+              Part of <strong>Team Brainiacs</strong>, recognized for our engineering and design work on the <strong>CoreStack Open-Source Landscape Explorer</strong>. Our solution introduced regional comparisons and multilingual navigation to empower diverse communities exploring open-source ecosystems.
+            </p>
+
+            <div class="achievement-stats-row">
+              <div class="stat-item">
+                <span class="stat-number">2,361+</span>
+                <span class="stat-label">Competing Teams</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">Team Brainiacs</span>
+                <span class="stat-label">Collaborative Unit</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">FOSS United</span>
+                <span class="stat-label">Organizing Foundation</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 7: CONTACT ("Something Worth Building?")
+         ====================================================================== -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="container">
+        
+        <span class="section-label">05 / Get In Touch</span>
+        <h2 id="contact-title" class="section-title">Something Worth Building?</h2>
+        <p class="section-intro">
+          Have an interesting problem, an unexpected idea, or an opportunity to collaborate? I'd love to hear about it.
+        </p>
+
+        <div class="contact-grid">
+          
+          <!-- Left Column: Direct Confirmed Channels -->
+          <div class="contact-channels reveal-item">
+            
+            <!-- Email Channel (Confirmed) -->
+            <div class="contact-card-item">
+              <div class="contact-card-left">
+                <div class="contact-channel-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <div class="channel-label">Direct Email</div>
+                  <a href="mailto:nsrashmi2005@gmail.com" class="channel-value" aria-label="Send email to nsrashmi2005@gmail.com">nsrashmi2005@gmail.com</a>
+                </div>
+              </div>
+              <button id="copy-email-btn" class="copy-btn" data-email="nsrashmi2005@gmail.com" aria-label="Copy email address to clipboard">Copy</button>
+            </div>
+
+            <!-- GitHub Channel (Confirmed) -->
+            <div class="contact-card-item">
+              <div class="contact-card-left">
+                <div class="contact-channel-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div class="channel-label">Code Repositories</div>
+                  <a href="https://github.com/nsrashmi2005" target="_blank" rel="noopener noreferrer" class="channel-value" aria-label="Visit Rashmi's GitHub profile (opens in new tab)">github.com/nsrashmi2005</a>
+                </div>
+              </div>
+              <a href="https://github.com/nsrashmi2005" target="_blank" rel="noopener noreferrer" class="copy-btn" aria-label="Open GitHub profile in new tab">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+
+            <!-- LinkedIn Channel (Documented Placeholder) -->
+            <div class="contact-card-item">
+              <div class="contact-card-left">
+                <div class="contact-channel-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <div class="channel-label">Professional Network</div>
+                  <!-- Clearly identified placeholder URL for configuration -->
+                  <a href="https://www.linkedin.com/in/rashmi-n-s" target="_blank" rel="noopener noreferrer" class="channel-value" aria-label="Visit Rashmi's LinkedIn profile (placeholder link, opens in new tab)">linkedin.com/in/rashmi-n-s</a>
+                </div>
+              </div>
+              <a href="https://www.linkedin.com/in/rashmi-n-s" target="_blank" rel="noopener noreferrer" class="copy-btn" aria-label="Open LinkedIn profile in new tab">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+
+            <!-- Geographic Location -->
+            <div class="contact-card-item">
+              <div class="contact-card-left">
+                <div class="contact-channel-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <div class="channel-label">Location Base</div>
+                  <div class="channel-value">Chennai, Tamil Nadu, India</div>
+                </div>
+              </div>
+              <span class="data-row-label">IST (UTC +5:30)</span>
+            </div>
+
+            <div id="copy-status" class="data-row-label" style="min-height: 18px;" aria-live="polite"></div>
+
+          </div>
+
+          <!-- Right Column: Interactive Direct Inquiry Form -->
+          <div class="contact-form-wrapper reveal-item">
+            <div class="contact-form-card">
+              <h3 class="form-header-title">Send a Direct Inquiry</h3>
+              <p class="form-header-sub">Prepares your message and opens your email client directly.</p>
+
+              <form id="inquiry-form" novalidate>
+                <div class="form-group">
+                  <label for="sender-name" class="form-label">Your Name</label>
+                  <input type="text" id="sender-name" class="form-input" placeholder="e.g. Alex Johnson" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="sender-subject" class="form-label">Subject</label>
+                  <input type="text" id="sender-subject" class="form-input" placeholder="e.g. Collaboration on AI Welfare or Engineering Role" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="sender-message" class="form-label">Message</label>
+                  <textarea id="sender-message" class="form-textarea" placeholder="Share what problem or idea you would like to explore together..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">
+                  <span>Compose Inquiry</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+
+                <div id="form-status" class="form-status-msg" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       SECTION 8: FOOTER
+       ======================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      
+      <div class="footer-top-grid">
+        <div>
+          <h3 class="footer-brand-title">Rashmi N S</h3>
+          <p class="footer-brand-desc">
+            Final-year Information Technology student at St. Joseph's Institute of Technology. Building software where curiosity meets real-world human needs.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Navigation</div>
+          <ul class="footer-links-list">
+            <li><a href="#hero" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About Me</a></li>
+            <li><a href="#skills" class="footer-link">Technical Skills</a></li>
+            <li><a href="#projects" class="footer-link">Featured Projects</a></li>
+            <li><a href="#achievement" class="footer-link">Achievement</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Verified Profiles</div>
+          <ul class="footer-links-list">
+            <li><a href="https://github.com/nsrashmi2005" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub (nsrashmi2005)</a></li>
+            <li><a href="mailto:nsrashmi2005@gmail.com" class="footer-link">Email (nsrashmi2005@gmail.com)</a></li>
+            <li><a href="https://www.linkedin.com/in/rashmi-n-s" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn (Configured)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>&copy; 2026 Rashmi N S. All rights reserved.</div>
+        <div class="footer-closing-quote">"Stay curious. Build thoughtfully."</div>
+        <a href="#hero" class="back-to-top-btn" aria-label="Scroll back to top of page">
+          <span>Back to Top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>

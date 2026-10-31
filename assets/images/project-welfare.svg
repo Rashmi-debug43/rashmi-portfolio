@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" fill="none">
+  <defs>
+    <linearGradient id="welfare-bg" x1="0" y1="0" x2="600" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0E162E" />
+      <stop offset="100%" stop-color="#080B16" />
+    </linearGradient>
+    <radialGradient id="welfare-glow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#8B7CFF" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#65CFFF" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#080B16" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="welfare-line" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B7CFF" />
+      <stop offset="100%" stop-color="#65CFFF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="340" fill="url(#welfare-bg)" />
+  <rect width="600" height="340" fill="url(#welfare-glow)" />
+
+  <!-- Technical Grid Pattern -->
+  <g opacity="0.12" stroke="#65CFFF" stroke-width="0.8">
+    <line x1="60" y1="0" x2="60" y2="340" stroke-dasharray="4 6" />
+    <line x1="180" y1="0" x2="180" y2="340" stroke-dasharray="4 6" />
+    <line x1="300" y1="0" x2="300" y2="340" stroke-dasharray="4 6" />
+    <line x1="420" y1="0" x2="420" y2="340" stroke-dasharray="4 6" />
+    <line x1="540" y1="0" x2="540" y2="340" stroke-dasharray="4 6" />
+    <line x1="0" y1="70" x2="600" y2="70" stroke-dasharray="4 6" />
+    <line x1="0" y1="170" x2="600" y2="170" stroke-dasharray="4 6" />
+    <line x1="0" y1="270" x2="600" y2="270" stroke-dasharray="4 6" />
+  </g>
+
+  <!-- Central Welfare / Multilingual Network Diagram -->
+  <circle cx="300" cy="160" r="85" stroke="rgba(139, 124, 255, 0.25)" stroke-width="1.5" stroke-dasharray="5 5" />
+  <circle cx="300" cy="160" r="120" stroke="rgba(101, 207, 255, 0.15)" stroke-width="1" />
+
+  <!-- Welfare Portal Hub Shield -->
+  <polygon points="300,105 345,128 345,178 300,210 255,178 255,128" fill="#151D34" stroke="url(#welfare-line)" stroke-width="2" />
+  
+  <!-- AI Heart / Human Purpose Glyph inside Shield -->
+  <path d="M300 135 C295 125 280 125 280 142 C280 156 300 172 300 172 C300 172 320 156 320 142 C320 125 305 125 300 135 Z" fill="#65CFFF" fill-opacity="0.85" />
+  <circle cx="300" cy="188" r="3.5" fill="#8B7CFF" />
+
+  <!-- Multilingual & Citizen Nodes -->
+  <!-- Node: Citizen Discovery -->
+  <g transform="translate(160, 110)">
+    <circle cx="0" cy="0" r="26" fill="#101629" stroke="#65CFFF" stroke-width="1.2" />
+    <text x="0" y="4" text-anchor="middle" fill="#F3F5FF" font-family="system-ui, sans-serif" font-size="11" font-weight="600">SCHEMES</text>
+    <line x1="26" y1="0" x2="95" y2="35" stroke="rgba(101, 207, 255, 0.4)" stroke-width="1.2" />
+    <circle cx="0" cy="0" r="3.5" fill="#65CFFF" />
+  </g>
+
+  <!-- Node: Multilingual Voice / Query -->
+  <g transform="translate(440, 110)">
+    <circle cx="0" cy="0" r="26" fill="#101629" stroke="#8B7CFF" stroke-width="1.2" />
+    <text x="0" y="4" text-anchor="middle" fill="#F3F5FF" font-family="system-ui, sans-serif" font-size="11" font-weight="600">MULTILINGUAL</text>
+    <line x1="-26" y1="0" x2="-95" y2="35" stroke="rgba(139, 124, 255, 0.4)" stroke-width="1.2" />
+    <circle cx="0" cy="0" r="3.5" fill="#8B7CFF" />
+  </g>
+
+  <!-- Node: Accessible Delivery -->
+  <g transform="translate(300, 275)">
+    <rect x="-70" y="-16" width="140" height="32" rx="16" fill="#101629" stroke="rgba(180, 190, 255, 0.3)" stroke-width="1.2" />
+    <text x="0" y="4" text-anchor="middle" fill="#A6AEC7" font-family="monospace" font-size="10" letter-spacing="1.5">ACCESSIBILITY AI</text>
+    <line x1="0" y1="-16" x2="0" y2="-65" stroke="rgba(180, 190, 255, 0.35)" stroke-width="1.2" stroke-dasharray="3 3" />
+  </g>
+
+  <!-- Subtle Constellation Stars -->
+  <circle cx="100" cy="60" r="1.5" fill="#F3F5FF" opacity="0.6" />
+  <circle cx="490" cy="240" r="1.5" fill="#65CFFF" opacity="0.7" />
+  <circle cx="120" cy="230" r="1.2" fill="#8B7CFF" opacity="0.5" />
+  <circle cx="510" cy="70" r="1.8" fill="#F3F5FF" opacity="0.8" />
+  
+  <!-- Architectural Tag -->
+  <rect x="25" y="25" width="145" height="24" rx="4" fill="rgba(139, 124, 255, 0.12)" stroke="rgba(139, 124, 255, 0.3)" stroke-width="1" />
+  <text x="35" y="41" fill="#8B7CFF" font-family="monospace" font-size="9.5" letter-spacing="1">AI WELFARE ARCHITECTURE</text>
+</svg>
